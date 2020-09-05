@@ -63,16 +63,16 @@ Material:
     - _IsAlphaMasked: 1
     - _IsSpriteVisible: 1
     - _Iterations: 1
-    - _Jump: 0.003
+    - _Jump: 0.002
     - _Kernel: 2
-    - _Radius: 64
+    - _Radius: 30
     - _Size: 100
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
-    - _Step: 6
+    - _Step: 7
     - _Steps: 2
     - _UseGammaCorrection: 0
     - _UseUIAlphaClip: 1

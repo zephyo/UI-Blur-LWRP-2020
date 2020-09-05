@@ -63,9 +63,9 @@ Material:
     - _IsAlphaMasked: 1
     - _IsSpriteVisible: 1
     - _Iterations: 1
-    - _Jump: 0.017
+    - _Jump: 0.038
     - _Kernel: 2
-    - _Radius: 45
+    - _Radius: 64
     - _Size: 100
     - _Stencil: 0
     - _StencilComp: 8
