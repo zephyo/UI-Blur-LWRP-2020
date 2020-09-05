@@ -18,6 +18,7 @@ Lightweight shader giving UI the glassy 'background blur' effect in any project 
 ### Cons
 
 - Needs camera to output to RenderTexture
+- Will only blur the background scene, not other UI
 
 ---
 
