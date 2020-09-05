@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIBlur
+  m_Shader: {fileID: 4800000, guid: 53d8db568f79e4c68b85bc44a056ff25, type: 3}
+  m_ShaderKeywords: IS_BLUR_ALPHA_MASKED IS_SPRITE_VISIBLE UNITY_UI_ALPHACLIP _KERNEL_LARGE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BlurTex:
+        m_Texture: {fileID: 8400000, guid: 084033ee88c7b426eb726ffc6737840a, type: 2}
+        m_Scale: {x: 0.1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrabTexture:
+        m_Texture: {fileID: 8400000, guid: 400a47f046d974153a16f15c8be784f2, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RenderTex:
+        m_Texture: {fileID: 8400000, guid: 400a47f046d974153a16f15c8be784f2, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SuperBlurTexture:
+        m_Texture: {fileID: 8400000, guid: 400a47f046d974153a16f15c8be784f2, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - __BlurTex_TexelSize:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _EnableExternalAlpha: 0
+    - _Factor: 8.85
+    - _Interpolation: 1
+    - _IsAlphaMasked: 1
+    - _IsSpriteVisible: 1
+    - _Iterations: 1
+    - _Jump: 0.017
+    - _Kernel: 2
+    - _Radius: 45
+    - _Size: 100
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Step: 10
+    - _Steps: 2
+    - _UseGammaCorrection: 0
+    - _UseUIAlphaClip: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _OverlayColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - __BlurTex_TexelSize: {r: 0.01, g: 0.01, b: 1, a: 1}
+  m_BuildTextureStacks: []

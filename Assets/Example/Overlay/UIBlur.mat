@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BlurTex:
-        m_Texture: {fileID: 8400000, guid: 400a47f046d974153a16f15c8be784f2, type: 2}
+        m_Texture: {fileID: 8400000, guid: 084033ee88c7b426eb726ffc6737840a, type: 2}
         m_Scale: {x: 0.1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GrabTexture:
@@ -63,16 +63,16 @@ Material:
     - _IsAlphaMasked: 1
     - _IsSpriteVisible: 1
     - _Iterations: 1
-    - _Jump: 0.233
+    - _Jump: 0.003
     - _Kernel: 2
-    - _Radius: 33
+    - _Radius: 64
     - _Size: 100
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
-    - _Step: 4
+    - _Step: 6
     - _Steps: 2
     - _UseGammaCorrection: 0
     - _UseUIAlphaClip: 1
