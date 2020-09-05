@@ -8,6 +8,7 @@ Lightweight shader giving UI the glassy 'background blur' effect in any project 
 ### Pros
 
 - Compatible with URP, 2D Renderer, LWRP, and Unity 2020.1 (and previous versions)
+- No Grab Pass
 - Performant
   - No more repeated Graphics.Blit on the same Render Texture
   - Perform all math in the shader code which contains two nested for-loops of max O(Max Radius / Min Steps \* 5) = 106 operations; get good results with radius = 30, step = 4, of 37 operations
